@@ -1,0 +1,53 @@
+# Trello Clone Project Rules
+
+## Project Preferences
+- Use React functional components with hooks (no class components)
+- Prefer Tailwind CSS for styling over CSS/SCSS files
+- Use TypeScript for type safety where possible
+- Follow a component-first approach to development
+- Maintain mobile-first responsive design throughout
+
+## Coding Standards
+- Use consistent naming conventions (PascalCase for components, camelCase for variables)
+- Keep components small and focused on a single responsibility
+- Use meaningful variable and function names
+- Organize imports with React/library imports first, then components, then utilities
+- Use destructuring for props and state
+
+## File Organization
+- Group related components in folders
+- Keep styles with components (no separate CSS files)
+- Use index.js/ts files for clean imports
+- Use barrel exports for component directories
+
+## State Management
+- Use React Context API for global state
+- Use localStorage for persistence
+- Implement custom hooks for reusable logic
+- Keep state as close to where it's used as possible
+
+## Component Patterns
+- Use composition over inheritance
+- Implement UI components as presentational when possible
+- Extract complex logic into custom hooks
+- Use React.memo() for performance optimization when necessary
+
+## Documentation
+- Use JSDoc comments for component props and functions
+- Document complex logic with inline comments
+- Keep the Memory Bank updated as implementation progresses
+- Include responsive considerations in component documentation
+
+## User Interface
+- Follow Trello's familiar interface patterns
+- Use subtle animations for improved UX
+- Ensure all interactive elements have proper hover/focus states
+- Maintain sufficient color contrast for accessibility
+
+## Responsive Breakpoints
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## Key Learnings & Patterns
+- This section will be populated as development progresses
